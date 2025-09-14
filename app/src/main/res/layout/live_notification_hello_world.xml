@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/test">
+
+    <TextView
+        android:id="@+id/tv_hello_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World Demo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_hello_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="这是一个实况通知演示"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="当前时间"
+        android:textSize="12sp"
+        android:textColor="#999999"
+        android:gravity="center" />
+
+</LinearLayout>
