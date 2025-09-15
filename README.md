@@ -17,6 +17,7 @@ val capsuleBundle = Bundle().apply {
     putInt("notification.live.capsuleBgColor", context.resources.getColor(android.R.color.holo_blue_bright, null))
     putInt("notification.live.capsuleContentColor", context.resources.getColor(android.R.color.white, null))
     putParcelable("notification.live.capsule.content.remote.view", capsuleRemoteViews)
+    putString("notification.live.capsuleContent", "test");
 }
 ```
 
