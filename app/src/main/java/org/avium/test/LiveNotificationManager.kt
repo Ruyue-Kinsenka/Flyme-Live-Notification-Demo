@@ -42,6 +42,7 @@ class LiveNotificationManager(private val context: Context) {
         val capsuleBundle = Bundle().apply {
             putInt("notification.live.capsuleStatus", 1)
             putInt("notification.live.capsuleType", 5)
+            putString("notification.live.capsuleContent", "test");
             putParcelable("notification.live.capsuleIcon", 
                 Icon.createWithResource(context, R.drawable.ic_notification))
             putInt("notification.live.capsuleBgColor", 
